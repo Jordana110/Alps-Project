@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+body {
+    width: 1440px;
+  margin: 0 auto;
+}
+
+.headerhero {
+    background-image: url(../img/photo-1486312699619-be057cfc0342.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Cinzel";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  padding: 20%;
+}
+
+h2,
+p {
+  color: #333333;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 80px 0px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #999999;
+    padding: 15px 80px;
+  }
+  
+  h3:hover {
+    color: gray;
+    cursor: pointer;
+  }
+  
+  img {
+    width: 360px;
+  }
+  
+  p,
+  li {
+    font-family: "Poppins";
+    font-size: 16px;
+  }
+  
+  li {
+    list-style-type: none;
+    padding: 5px 5px 5px 200px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .choose-trip {
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 0 100px;
+  }
+  
+  .tour-images {
+    text-align: center;
+  }
+  
+  .tour-dates {
+    margin-bottom: 80px;
+  }
+  
+  .sold-out {
+    color: red;
+  }
+  
+  .available {
+    color: green;
+  }
+
+  footer {
+    border-top: 1px solid gray;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  footer h2 {
+    padding: 40px 0px;
+  }
+  
+  footer img {
+    width: 100px;
+    padding: 0px 10px;
+  }
